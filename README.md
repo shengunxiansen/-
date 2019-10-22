@@ -25,3 +25,5 @@ descdata.kmeans<-kmeans(descdata,3)
 lng_e<-mydata[,7]
 lat_e<-mydata[,8]
 ```
+## 绘制起点聚类
+![](https://github.com/shengunxiansen/-/起点聚类.png)
