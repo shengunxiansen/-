@@ -1,7 +1,9 @@
-# -期中作业
+-期中作业
+=========
   (数据选取为绵阳市某时段人流情况)
-一、数据处理
-  library(RgoogleMaps)
+# 一、数据处理
+```
+library(RgoogleMaps)
 library(googleVis)
 library(ggplot2)
 library(maptools)
@@ -22,3 +24,4 @@ descdata<-mydata[,7,8]
 descdata.kmeans<-kmeans(descdata,3)
 lng_e<-mydata[,7]
 lat_e<-mydata[,8]
+```
